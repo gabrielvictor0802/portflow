@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+@media(max-width:600px){
+    header{
+        width: 100%;
+        height: 5%;
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        width: 86%;
+    }
+}
+
+nav {
+    width: 35%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    color: lightgray;
+    list-style: none;
+    font-size: 15px;
+    
+}
+ul:hover { 
+    color: black;
+}
+
+.li4 {
+   color: black;
+}
+
+
+@media(max-width:600px){
+    nav{
+       display: none;
+    }
+}
+
+.section1 {
+    background-image: url("laranja.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+    width: 100%;
+}
+
+@media(max-width:600px) {
+    .section1 {
+        background-image: url(laranjaazulrecorte.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        width: 100%;
+        margin-bottom: 12%;
+    }
+}
+
+.div1 { 
+    color: aliceblue;
+    padding-top: 17%;
+    font-size: 30px;
+    margin-left: 10%;
+    height: 100%;
+    width: 65%;
+}
+
+@media(max-width:600px){
+    .div1{
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        font-size:35px;
+        margin-left: 15%;
+    }
+    h1 {
+        display: flex;
+        align-items: flex-end;
+        height: 80%;
+        
+    }
+
+}
+
+.section2 { 
+    display: flex;
+    justify-content: space-around;
+    height: 33%;
+    width: 70%;
+    margin: 2%;
+    margin-left: 14%;
+}
+
+@media(max-width:600px){
+    .section2{
+        flex-direction: column;
+        height: 140%;
+        width: 60%;
+        
+    }
+   
+}
+
+footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+}
+
+.redessocias {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin: 3%;
+    width: 45%;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    width: 49%;
+}
+
+@media(max-width:600px){
+    footer{
+        background-color: #0000;
+        flex-wrap: wrap;
+        height: 30%;
+        width: 100%;
+    }
+    .redessocias{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 8%;
+        height: 30%;
+        width: 70%;
+        background-color:#7FDBD4 ;
+    }
+    .div2{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin-left: 9%;
+        height: 50%;
+        width: 70%;
+        font-size: 20px;
+        
+    }
+}
